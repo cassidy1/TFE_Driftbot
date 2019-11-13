@@ -1,6 +1,6 @@
 # Terraform Enterprise Drift Detection Bot
 
-This bot was built based on code creat for the (https://github.com/AdamCavaliere/TFE_WorkspaceReaper "Workspace Reaper Bot") which is a great tool for controlling resource costs by removing unused resources. Check it out!
+This bot was built based on code creat for the [Workspace Reaper Bot](https://github.com/AdamCavaliere/TFE_WorkspaceReaper) which is a great tool for controlling resource costs by removing unused resources. Check it out!
 
 ## Application Details
 
@@ -25,7 +25,7 @@ This application is built for demonstration purposes to show interacting with th
 
 #### Optional Variable
 
-* `check_time` - How often (in minutes) the reaper bot should run to check on workspaces. The default is set to `5`.
+* `check_time` - How often (in minutes) the reaper bot should run to check on workspaces. The default is set to `60`.
 
 #### Workspace Settings
 
