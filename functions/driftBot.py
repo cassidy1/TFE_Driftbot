@@ -22,7 +22,7 @@ def queueRun(workspaceID):
     payload = {
         "data": {
             "attributes": {
-                "is-destroy":False
+                "is-destroy":False,
                 "message": "Run queue by DriftBot"
                 },
             "type":"runs",
