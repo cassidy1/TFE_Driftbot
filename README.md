@@ -4,7 +4,7 @@ This bot was built based on code created for the [Workspace Reaper Bot](https://
 
 ## Application Details
 
-This application is utilized to automatically queue runs on workspaces based on a DRIFTBOT_ENABLED enviornment variable being set. Notifications can be set in Terraform Enterprise to notify you whenever a plan needs to be applied because there was a change to the state outside of TFE.
+This application is utilized to automatically queue runs on workspaces based on a `DRIFTBOT_ENABLED` enviornment variable being set. Notifications can be set in Terraform Enterprise to notify you whenever a plan needs to be applied because there was a change to the state outside of TFE.
 
 The application is fully based on Lambda functions, and is automatically deployed via Terraform.
 
