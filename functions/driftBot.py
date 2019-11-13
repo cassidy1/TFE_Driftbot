@@ -23,7 +23,7 @@ def queueRun(workspaceID):
         "data": {
             "attributes": {
                 "is-destroy":False,
-                "message": "Run queue by DriftBot"
+                "message": "Run queued by DriftBot"
                 },
             "type":"runs",
             "relationships": {

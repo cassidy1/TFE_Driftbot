@@ -8,7 +8,7 @@ This application is utilized to automatically queue runs on workspaces based on 
 
 The application is fully based on Lambda functions, and is automatically deployed via Terraform.
 
-This application is built for demonstration purposes to show interacting with the TFE API and is not built for production usage. For now...
+This application is built for demonstration purposes to show interacting with the TFE API and is **not built for production usage**. For now...
 
 ## Setup
 

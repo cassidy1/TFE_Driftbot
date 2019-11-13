@@ -12,6 +12,6 @@ variable "TFE_ORG" {
 
 variable "check_time" {
   description = "How often should runs happen to check for drift"
-  default     = 60
+  default     = 1
 }
 
