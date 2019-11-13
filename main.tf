@@ -46,7 +46,31 @@ resource "aws_iam_role" "iam_for_lambda" {
   ]
 }
 EOF
+}
 
+resource "aws_iam_role_policy" "read_write_policy" {
+  name = "iam_reaper_policy-${var.TFE_ORG}"
+  role = "${aws_iam_role.iam_for_lambda.id}"
+
+  policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+      "Effect": "Allow",
+      "Action": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents",
+        "logs:DescribeLogStreams"
+    ],
+      "Resource": [
+        "arn:aws:logs:*:*:*"
+    ]
+  }
+  ]
+}
+EOF
 }
 
 resource "aws_cloudwatch_event_rule" "event_run" {
