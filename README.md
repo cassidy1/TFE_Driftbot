@@ -26,6 +26,7 @@ This application is built for demonstration purposes to show interacting with th
 #### Optional Variable
 
 * `check_time` - How often (in minutes) the reaper bot should run to check on workspaces. The default is set to `60`.
+* `aws_region` - Region to deploy the Lambda function. The default is set to `us-west-2`.
 
 #### Workspace Settings
 
