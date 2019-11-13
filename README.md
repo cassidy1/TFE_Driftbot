@@ -1,6 +1,6 @@
 # Terraform Enterprise Drift Detection Bot
 
-This bot was built based on code creat for the [Workspace Reaper Bot](https://github.com/AdamCavaliere/TFE_WorkspaceReaper) which is a great tool for controlling resource costs by removing unused resources. Check it out!
+This bot was built based on code created for the [Workspace Reaper Bot](https://github.com/AdamCavaliere/TFE_WorkspaceReaper) which is a great tool for controlling resource costs by removing unused resources. Check it out!
 
 ## Application Details
 
