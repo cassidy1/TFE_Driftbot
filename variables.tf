@@ -1,3 +1,7 @@
+variable "aws_region" {
+  default     = "us-west-2"
+}
+
 variable "TFE_TOKEN" {
   description = "Token needed for checking workspaces"
 }

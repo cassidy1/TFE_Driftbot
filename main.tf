@@ -5,7 +5,7 @@ data "archive_file" "driftBot" {
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region = var.aws_region
 }
 
 resource "aws_lambda_function" "drift_lambda" {
